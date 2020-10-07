@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/swipercss.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <title>Messages</title>
+    <style>
+        .col-sm-8,.col-sm-2{
+    background:#3383FF;
+  }
+  #my_header{
+    display:table;
+    margin:auto;
+  }
+  #my_header_div{
+    display:table-cell;
+  }
+ </style>
+</head>
+<body onload="filterSelection('1')" style="font-family:candara"></body>
+<div class="row"  >
+    <div class="col-sm-2">
+     <img src="/images/logo.jpg" id="logo">
+    </div>
+    <div class="col-sm-8 pt-3">
+      <a href="/"><button type="button" class="btn btn-default" id="home" style="font-size: 20px;"><b style="color: white;">HOME</b></button></a>
+      <a href="/products"><button type="button" class="btn btn-default" id="home" style="font-size: 20px;"><b style="color: white;">PRODUCTS</b></button></a>
+      <a href="/dashboard"><button type="button" class="btn btn-default" id="services" style="font-size: 20px;"><b style="color: white;">DASHBOARD</b></button></a>
+    </div>
+      <div class="col-sm-2 pt-4">
+        <a href="/users/logout" class="ghost-button2" id="logout"><i class='fas fa-user-alt' style="font-size: 20px; color:white">
+        </i><font style="font-size: 20px; color: white">  Logout</font></a>
+        </div>
+    </div>
+    <div class="jumbotron" style="padding:4px;">
+      <div class="container" style="padding:5px;">
+        <p >Message status: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vendor Category: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vendor Name: &nbsp;&nbsp;&nbsp;&nbsp; Date:</p>
+        
+        <p> Message 1 short description.................. </p><a class="btn btn-primary btn-lg" href="#" role="button">view full message &raquo;</a></p> 
+      </div>
+  
+      </div>
+      <div class="jumbotron" style="padding:4px;">
+        <div class="container" style="padding:5px;">
+          <p >Message status: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vendor Category: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vendor Name: &nbsp;&nbsp;&nbsp;&nbsp; Date:</p>
+          
+          <p> Message 2 short description.................. </p><a class="btn btn-primary btn-lg" href="#" role="button">view full message &raquo;</a></p> 
+        </div>
+    
+        </div>
+        <div class="jumbotron" style="padding:4px;">
+          <div class="container" style="padding:5px;">
+            <p >Message status: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vendor Category: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vendor Name: &nbsp;&nbsp;&nbsp;&nbsp; Date:</p>
+            
+            <p> Message 3 short description.................. </p><a class="btn btn-primary btn-lg" href="#" role="button">view full message &raquo;</a></p> 
+            
+          </div>
+      
+          </div>
+                   
+</body>
+</html>
